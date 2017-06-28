@@ -1,0 +1,33 @@
+{
+  "name": "score",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "XP": {
+      "type": "number",
+      "required": true
+    },
+    "flux": {
+      "type": "number"
+    },
+    "yarrianne": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "character": {
+      "type": "belongsTo",
+      "model": "character"
+    },
+    "event": {
+      "type": "belongsTo",
+      "model": "event"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

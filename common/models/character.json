@@ -1,0 +1,27 @@
+{
+  "name": "character",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CID": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "player": {
+      "type": "belongsTo",
+      "model": "player"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

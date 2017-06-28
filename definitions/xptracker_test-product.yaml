@@ -1,0 +1,25 @@
+product: '1.0.0'
+
+info:
+  name: xptracker_test
+  title: xptracker_test
+  version: '1.0.0'
+
+apis:
+  'xptracker_test':
+    $ref: xptracker_test.yaml
+
+visibility:
+  view:
+    type: public
+  subscribe:
+    type: authenticated
+
+plans:
+  default:
+    title: Default Plan
+    description: Default Plan
+    approval: false
+    rate-limit:
+      value: 100/hour
+      hard-limit: false
