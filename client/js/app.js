@@ -1,6 +1,6 @@
 var app = angular.module('xpApp', ['lbServices']);
 
-app.controller('xpController', function($scope, $http, Player) {
+app.controller('playerController', function($scope, $http, Player) {
 
  	$scope.players = Player.find();
  	$scope.player;

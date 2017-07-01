@@ -2,7 +2,7 @@
   "memory-1": {
     "name": "memory-1",
     "localStorage": "",
-    "file": "/Users/cam/loopback_test2/xptracker_test/persist",
+    "file": "/Users/cam/roc_code/xpTracker/persist",
     "connector": "memory"
   }
 }
